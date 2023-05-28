@@ -1,8 +1,12 @@
 const mongoose = require('mongoose');
 
 async function connectDb(){
+// git clone
+// code copy / chANGE
+// git add .
+// git comit 
+// git push
 
-    
     try{
         await mongoose.connect(process.env.MONGO_URI,{
            useUnifiedTopology: true
